@@ -1,0 +1,32 @@
+body {
+	height: 100vh;
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--black);
+	background-color: #2567b4;
+}
+
+* {
+	box-sizing: border-box;
+	--black: #060606;
+	--white: #ffffff;
+}
+
+#root {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	width: 90%;
+	max-width: 600px;
+	height: 400px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+	color: #ffffff;
+}
